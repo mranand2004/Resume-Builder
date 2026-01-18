@@ -1,47 +1,24 @@
 # 🚀 AI-Powered Resume Builder (MERN Stack)
+<img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/ea21b326-76e8-4cae-ac98-3935b7edc8e3" />
 
-An **AI-powered Resume Builder web application** that allows users to create, customize, preview, and download professional resumes using multiple modern templates.  
-Built using the **MERN stack**, with **AI-assisted content generation**, secure authentication, and a clean, responsive UI.
+
+
+AI-Powered Resume Builder is a full-stack web application that enables users to create, customize, preview, and manage professional resumes using modern templates and AI-assisted content generation.  
+The project is built using the **MERN stack**, focusing on scalability, security, and an intuitive user experience.
 
 ---
 
-## 📌 Features
+## 🚀 Features
 
-### 🔐 Authentication
-- User Registration & Login
-- JWT-based authentication
-- Protected routes using middleware
-
-### 📝 Resume Builder
-- Personal Information
-- Professional Summary
-- Skills
-- Education
-- Experience
-- Projects
-- Live Resume Preview
-
-### 🎨 Templates
-- Classic Template
-- Minimal Template
-- Modern Template
-- Minimal Image Template
-- Custom color selection
-
-### 🤖 AI Integration
-- AI-generated professional summaries
-- AI-enhanced resume content
-- Improves wording and structure
-
-### 📄 Export & Preview
-- Real-time resume preview
-- Printable resume layout
-- Clean and professional formatting
-
-### ☁️ Media & Storage
-- Image upload support (profile photo)
-- ImageKit integration
-- Multer for file handling
+- User authentication and authorization (JWT-based)
+- Create, edit, and manage multiple resumes
+- AI-generated professional summaries and content
+- Live resume preview while editing
+- Multiple modern resume templates
+- Custom color and layout selection
+- Profile image upload support
+- Secure backend APIs
+- Responsive UI for all devices
 
 ---
 
@@ -56,20 +33,33 @@ Built using the **MERN stack**, with **AI-assisted content generation**, secure 
 ### Backend
 - Node.js
 - Express.js
-- MongoDB (Mongoose)
+- MongoDB
+- Mongoose
 - JWT Authentication
 
-### AI & Utilities
-- OpenAI / AI API integration
-- ImageKit
-- Multer
+### Other Tools & Services
+- OpenAI / AI API (Resume content generation)
+- ImageKit (Image storage)
+- Multer (File uploads)
+- Git & GitHub
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
-<img width="1870" height="8192" alt="Decision Options Flow Model-2026-01-18-105214" src="https://github.com/user-attachments/assets/7e39c1d7-a20b-4975-ae06-ed6b39c85b15" />
+<img width="5941" height="607" alt="Decision Options Flow Model-2026-01-18-110110" src="https://github.com/user-attachments/assets/3c69c7b4-b30d-49ba-934f-a470fbd0bf6a" />
 
+---
+
+## 🔐 Environment Variables
+
+For security reasons, `.env` files are **not included** in the repository.
+
+Create a `.env` file inside the **server** folder and add the following:
+
+
+
+```env
 # Server Configuration
 PORT=5000
 NODE_ENV=development
@@ -88,4 +78,3 @@ AI_API_KEY=your_ai_api_key
 IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
 IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
 IMAGEKIT_URL_ENDPOINT=your_imagekit_url_endpoint
-  
